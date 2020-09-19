@@ -1,6 +1,7 @@
 import React from 'react';
-import { shallow } from '../enzyme';
+import { shallow, } from '../enzyme';
 import Rating from '../components/Ratings.js';
+
 
 describe('Rating converation to stars tests', () => {
 

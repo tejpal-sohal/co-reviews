@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from '../enzyme';
 
-import Nav from '../components/Nav';
+import Nav from '../components/Nav.js';
 
 describe('Navigation tests', () => {
 

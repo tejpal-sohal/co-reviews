@@ -10,7 +10,7 @@ import { FeedbackContext } from '../../contexts/FeedbackContext'
 function Graph() {
     const { graphSettings, graphOptions } = useContext(FeedbackContext)
     return (
-        <div className="col-md-6 mb-4">
+        <div className="col-md-6 col-lg-7 mb-4 mh-300">
             < Line data={graphSettings.charData}
                 options={graphOptions}
             />

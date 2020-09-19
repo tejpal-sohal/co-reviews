@@ -15,7 +15,7 @@ const FeedbackContextProvider = (props) => {
     const form = feedbackForm
 
     // set data for dummy feedback and wordCount of text area
-    const [feedback, setFeedback] = useState(data); 
+    const [feedback, setFeedback] = useState(data); // change to [] arr for no comments
     const [wordCount, SetwordCount] = useState(200)
 
      // set data for ratings using HOF filter to filter array 

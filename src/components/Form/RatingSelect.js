@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const RatingSelect = ({title, register, errors}) => {
     return (
         <div className="form-group">

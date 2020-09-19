@@ -33,13 +33,22 @@ function setDatasets(arr) {
 }
 
 const graphOptions = {
+    responsive: true,
     maintainAspectRatio: false,
     legend: {
         display: true,
         position: 'bottom'
     },
+    title: {
+        display: true,
+        text: 'Product Ratings'
+    },
     scales: {
         yAxes: [{
+            scaleLabel:{
+                display: true,
+                labelString: "Number of people"
+            },
             ticks: {
                 beginAtZero: true,
                 stepSize: 1,

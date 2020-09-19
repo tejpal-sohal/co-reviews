@@ -20,7 +20,7 @@ function FeedbackForm() {
     const { register, handleSubmit, errors } = useForm();
 
     return (
-        <div className="col-md-6">
+        <div className="col-md-6 col-lg-5 bg-light p-4 rounded">
             <h1>Product Reviews</h1>
             <form ref={feedbackForm} onSubmit={handleSubmit(onSubmit)}>
                 
