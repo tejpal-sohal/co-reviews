@@ -1,5 +1,5 @@
 import React from 'react';
-import { mount , shallow} from '../enzyme';
+import { mount } from '../enzyme';
 import FeedbackForm from '../components/Form/Form'
 import FeedbackContextProvider from '../contexts/FeedbackContext.js'
 import Comments from '../components/Comments'
