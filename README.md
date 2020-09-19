@@ -5,6 +5,9 @@
 
 Customer feedback form that allows customers to write a review for a product (name, email, rating 1 to 5 stars and a ‘comment’ section). See all the comments for the product. Also the trends of ratings are shown on a Graph.
 
+Open [https://distracted-yalow-96ef3c.netlify.app/](App) to view it in the browser.
+(Hosted on netlify.app)
+*Watches build changes on Github repo then builds & depolys 
   
 ## Available Scripts
 
@@ -87,5 +90,13 @@ For the Graph I used a library called chart.js. It allows javaScript charting fo
 
 # Final thoughts
 
-I had a lot of fun building this project! Deciding how to implement it and insure it would follow good practices. Things I would do differently if I had more time. Maybe set up an API and fetch the data to the app. Which isn’t difficult however as this was a prototype I wanted to keep things simple. Maybe add more interaction such as deep dive into user comments. The testing overall i tried to cover all variants however you can always add more tests over time.
+I had a lot of fun building this project! Deciding how to implement it and insure it would follow good practices. Things I would do differently if I had more time. 
+
+-Set up an API and fetch the data to the app. Which isn’t difficult however as this was a prototype I wanted to keep things simple. 
+-Add more interaction such as deep dive into user comments. 
+-More UI feedback on triggers or events
+
+However over I feel it was a good idea to keep things simple and fulfill all requiments stated. 
+
+
 
