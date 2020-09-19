@@ -5,7 +5,7 @@
 
 Customer feedback form that allows customers to write a review for a product (name, email, rating 1 to 5 stars and a ‘comment’ section). See all the comments for the product. Also the trends of ratings are shown on a Graph.
 
-Open [https://distracted-yalow-96ef3c.netlify.app/](App) to view it in the browser.
+Open [App](https://distracted-yalow-96ef3c.netlify.app/) to view it in the browser.
 (Hosted on netlify.app)
 *Watches build changes on Github repo then builds & depolys 
   
