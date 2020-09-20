@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <div className="container">
-        <div className="row mt-5">
+      <div className="container mt-5">
+        <div className="row">
           <FeedbackContextProvider>
             <FeedbackForm />
             <Graph />

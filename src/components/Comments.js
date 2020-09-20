@@ -12,7 +12,7 @@ function Comments() {
     return (
         <div className="col-md-12 mt-4 mb-4">
             <div className="list-group">
-                <h2>Reviews</h2>
+                <h2 className="mb-5">Reviews</h2>
                 {
                   feedback.length === 0 ? <small>No reviews </small> :  feedback.map((item, key) => {
                         return (

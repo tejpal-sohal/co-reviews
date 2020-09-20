@@ -10,6 +10,10 @@ html {
     resize: none; 
   }
 
+  .bg-custom {
+    background-color: #0c1142
+  }
+
   .mh-300{
     min-height: 300px;
   }
