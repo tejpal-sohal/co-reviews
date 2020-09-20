@@ -18,9 +18,9 @@ function Comments() {
                         return (
                             <div key={key} href="#" className="list-group-item list-group-item-action">
                                 <div className="d-flex w-100 justify-content-between">
-                                    <h4 className="mb-1 lead font-weight-bold">{item.name}
+                                    <h3 className="mb-1 lead font-weight-bold">{item.name}
                                         <Rating stars={item.rating} />
-                                    </h4>
+                                    </h3>
                                     <small className="font-italic">{item.date}</small>
                                 </div>
                                 <p className="mb-1">{item.comment}</p>
