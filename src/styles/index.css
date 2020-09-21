@@ -2,15 +2,15 @@ html {
     position: relative;
     min-height: 100%;
   }
-  body {
+ body {
     margin-bottom: 60px;
   }
 
-  form textarea { 
+  .App form textarea { 
     resize: none; 
   }
 
-  .bg-custom {
+  .App .bg-custom {
     background-color: #0c1142
   }
 
@@ -18,12 +18,12 @@ html {
     min-height: 300px;
   }
 
-  .list-group {
+  .App .list-group {
     overflow-y:scroll;
     overflow-x:hidden;
     max-height:95%;
   }
-  .footer {
+  .App .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
